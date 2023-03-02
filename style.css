@@ -1,0 +1,126 @@
+/* style signin  and signout form  */
+body{
+    background-image: url(./norml_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgb(115, 117, 117);
+    margin: 30px 500px;
+    height: 90vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.container:active{
+    transform: scale(0.99);
+    -webkit-transform: scale(0.99);
+    -moz-transform: scale(0.99);
+    -ms-transform: scale(0.99);
+    -o-transform: scale(0.99);
+}
+
+form{
+    margin-left: 30px;
+}
+
+h2 img{
+    width: 80px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 5px solid black;
+}
+
+ h2{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+input{
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+p{
+  text-align: center;  
+}
+
+.form-group{
+    padding: 8px;
+}
+
+button{
+    padding: 12px;
+    width: 120px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px 0px 0px 170px;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    background-color: aquamarine;
+}
+
+
+button:hover{
+    background-color: orange;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+button:active{
+ transform: scale(0.98);
+ -webkit-transform: scale(0.98);
+ -moz-transform: scale(0.98);
+ -ms-transform: scale(0.98);
+ -o-transform: scale(0.98);
+}
+
+a{
+
+    text-decoration: none;
+    font-size: 18px;
+    /* color: rgb(123, 129, 247); */
+}
+
+a:hover{
+    text-decoration: underline red;
+}
+
+.img-section img{
+    display: inline;
+    width:60px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.img-section table{
+    margin: 0 auto;
+}

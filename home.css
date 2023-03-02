@@ -1,0 +1,378 @@
+.home_container{
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.nav_container{
+     float: left;
+     width: 100%;
+}
+
+.nav_container tr a{
+    float: left;
+    margin: 12px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: rgb(198, 197, 197);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.nav_container tr a:hover{
+    background-color: bisque;
+}
+
+
+
+
+.first_img_container{
+    background-image: url(./Cover-banner.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}
+
+.first_img_container h1{
+    font-size: 3.5rem;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20%;
+    /* background-color: rgb(18, 236, 236); */
+   
+
+}
+
+
+/* style search_bar_section */
+.search_bar_section{
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+
+.S_section{
+    padding: 11px;
+    width: 30%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+}
+
+.S_btn{
+    padding: 11px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.S_btn:hover{
+    background-color: beige;
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+
+/* style second_section_img */
+.second_section{
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.second_section iframe{
+ margin: 0px 0px 0px 400px;
+ width:700px;
+ height: 400px;
+}
+
+.img_gallary_section h1{
+    text-align: center;
+    font-size:3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline red;
+}
+
+.second_section h2{
+    font-family: sans-serif;
+    font-size: 5rem;
+    /* top: -30%; */
+    text-align: center;
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+    0%{
+       color: rgb(6, 6, 8); 
+    }
+
+    25%{
+        color: blue; 
+    }
+
+    50%{
+        color: rgb(239, 21, 17); 
+    }
+
+    75%{
+        color: blue; 
+    }
+
+    100%{
+        color: rgb(5, 5, 7); 
+    }
+}
+
+.second_section_img{
+    width: 35%;
+    margin: 30px 0px 0px 100px;
+    animation-name: moveImage;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    transform: rotate3d(150deg);
+    -webkit-transform: rotate3d(150deg);
+    -moz-transform: rotate3d(150deg);
+    -ms-transform: rotate3d(150deg);
+    -o-transform: rotate3d(150deg);
+}
+
+
+.second_section p{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+/* style img gallary */
+
+.img_gallary_section{
+    /* background-color: aqua; */
+    margin: 0px 80px;
+    width: 100%;
+    position: relative;
+    
+}
+
+
+.container1 img{
+    margin-left: 60px;
+    width: 100%;
+    height: 48vh;
+    padding-bottom: 20px;
+    display: block;
+    /* position: relative; */
+
+}
+
+
+
+/* new product section */
+.new_product{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.newProduct_table table{
+    width: 100%;
+}
+
+.newProduct_table img{
+    width: 80%;
+    margin: 20px;
+}
+
+.newProduct_table img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.container1{
+    position: relative;
+    width: 80%;
+    /* padding: 50px; */
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    /* margin: 50px; */
+    /* padding: 50px; */
+}
+
+.container1 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container2 img{
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+.overlay{
+ position: absolute;
+ bottom:0px;
+ left: 0px;
+ right: 0px;
+ font-weight: 1000;
+ background-color: rgb(26, 27, 27);
+ overflow: hidden;
+ width: 100%;
+ margin: 0px 0px 0px 20px;
+ height: 0;
+ opacity:0.8;
+ transition: 0.8s ease;
+ -webkit-transition: 0.8s ease;
+ -moz-transition: 0.8s ease;
+ -ms-transition: 0.8s ease;
+ -o-transition: 0.8s ease;
+}
+
+.overlay1{
+ position: absolute;
+ bottom:0px;
+ left: 0px;
+ right: 0px;
+ font-weight: 1000;
+ background-color: rgb(26, 27, 27);
+ overflow: hidden;
+ width: 90%;
+ margin: 0px 0px 0px 0px;
+ height: 0;
+ opacity:0.8;
+ transition: 0.8s ease;
+ -webkit-transition: 0.8s ease;
+ -moz-transition: 0.8s ease;
+ -ms-transition: 0.8s ease;
+ -o-transition: 0.8s ease;
+}
+
+.container1:hover .overlay {
+    height: 100%;
+  }
+  
+.container2:hover .overlay1 {
+    height: 100%;
+  }
+  
+
+.text {
+    color: rgb(16, 246, 242);
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%,-100%);
+    text-align:right;
+    font-family: sans-serif;
+}
+
+/* style footer section */
+footer{
+    background-color: beige;
+    font-size: 15px;
+    padding: 12px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+/* about section */
+.about{
+    background-color: black;
+    /* background-image: url(./srilnaka\ back_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: white;
+    text-align: center;
+    height: 100vh;
+    /* padding: 200px 0px 0px 100px; */
+
+}
+
+.about img{
+    border-radius:0px 0px 250px 250px;
+    -webkit-border-radius:0px 0px 250px 250px;
+    -moz-border-radius:0px 0px 250px 250px;
+    -ms-border-radius:0px 0px 250px 250px;
+    -o-border-radius:0px 0px 250px 250px;
+    width: 150px;
+}
+
+.about table{
+    width: 100%;
+    height: 60vh;
+    font-size: 20px;
+    /* margin: 280px 80px 0px 80px ; */
+   
+
+}
+
+
+.about table a{
+    text-decoration: none;
+    color: white;
+}
+
+.about table a:hover{
+    color:aqua;
+    text-decoration: underline red;
+}
+
+/* style social media section */
+.social-media{
+    background-color: black;
+    padding-left: 40%;
+
+}
+
+.social-media table{
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

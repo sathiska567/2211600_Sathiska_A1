@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <div class="container">
+
+        <h2><img src="./profile3.webp" alt="profile" class="profile"></h2>
+        <form role="form" onsubmit="signUp(event);" autocomplete="off">
+
+            <!-- first name input section -->
+            <div class="form-group">
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            </div>
+
+            <!-- last name input section -->
+            <div class="form-group">
+                <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+            </div>
+
+        <!-- email input section -->
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+            </div>
+
+            <!-- password input section -->
+            <div class="form-group">
+                <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+            </div>
+
+            <!-- button section -->
+            <div class="form-group">
+                <button type="submit"> Sign Up </button>
+            </div>
+        </form>
+
+        <p> Already a member? <a href="./signin.html">Sign In</a></p>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

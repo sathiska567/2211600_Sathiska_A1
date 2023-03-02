@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form</title>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+   <div class="container">
+
+    <!-- Head img -->
+
+    <h2><img src="./profile3.webp" alt=""></h2>
+
+    <!-- Form section -->
+    <form role="form" onsubmit="signIn(event);" autocomplete="off" name="vform1">
+
+        <!-- username input section -->
+        <div class="form-group">
+
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+        </div>
+
+        <!-- password input section -->
+        <div class="form-group">
+            <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+        </div>
+
+<!-- fogoten password -->
+    <p><a href="#">Fogoten password</a></p>
+
+<!-- sign up link -->
+    <p>Don't have an account? <a href="./signup.html" target="_blank">Sign Up</a> here</p>
+
+    <!-- login button -->
+    <div class="form-group">
+        <button type="submit">LOGIN</button>
+    </div>
+
+    <p>or Sign Up Usign</p>
+
+    </form>
+
+    <!-- signIn other method -->
+    <div class="img-section">
+     <table class="img-table">
+        <tr>
+          <td><a href="https://www.facebook.com/"><img src="./facebook.png" alt="facebook"></a></td>
+          <td><a href="https://github.com/"><img src="./git-hub.png" alt="Github"></a></td>
+          <td><a href="https://www.google.com/"><img src="./google2.png" alt="google"></a></td>
+
+        </tr>
+     </table>
+       
+    </div>
+
+   </div>  
+       
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
